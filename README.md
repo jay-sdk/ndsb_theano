@@ -51,8 +51,7 @@ network learns over time.
 
 To increase the training/validation set, I rotated all original source images by 90 degrees. The code for that is in rotate_training_set.py.
 Run this _before_ running the conv_net.py itself. Note that load_images.py loads the image files, both the training and validation
-sets (including randomization and split) and the actual test set.
+sets (including randomization and split) and the actual test set. utils.py comes from here: http://www.deeplearning.net/tutorial/utilities.html
 
 The best result I got was a validation score of around 1.121 or so (roughly equivalent to ~65% accuracy rate), which is well 
-off from the leaders in the NDSB, but perhaps this code is still useful for some. The exercise certainly was very educational 
-to me.
+off from the leaders in the NDSB, but perhaps this code is still useful for some. The exercise certainly was very educational to me.
