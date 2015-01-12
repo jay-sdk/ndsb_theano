@@ -31,12 +31,11 @@ As I said, the code is a little ugly, and has parts cobbled together from elsewh
 understand what the model was doing. Perhaps the only redeeeming part is that I often used the conv_net.py file to keep notes,
 but these are by no means complete.
 
-To run this code:
-- make these folders:
-   filters
-   test_img
-   saved_params
-   plots
+To run this code, make these folders:
+- filters
+- test_img
+- saved_params
+- plots
    
 In filters you'll get the state of the layer weights/filters at the end of each training epoch. Test_img creates a .tiff image
 during the load of the training data once for each folder/category, so you can get a sense what the network operates on. 
